@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>OLPERTET DAIRY BUSINESS</title>
+        <link rel="stylesheet"type="text/css" href="index.css">
     </head>
     <body>
+      <div class="parent-container">
+        <h1>Daily Milk Production</h1>
+        <form>
+          <label>DAY</label><br>
+          <select id="weekly-day">
+            <option disabled selected value="0">choose...</option><br><br>
+            <option value="1">Sunday</option>
+            <option value="2">Monday</option>
+            <option value="3">Tuesday</option>
+            <option value="4">Wednesday</option>
+            <option value="5">Thursday</option>
+            <option value="6">Friday</option>
+            <option value="7">Saturday</option>
+          </select>
+          </form>
+        <form>
+          <label> SHADE A</label><br>
+          <input id="alitre_amount" type="number">
+         </form>
+         <form>
+           <label>SHADE B</label><br>
+           <input id="blitre_amount" type="number">
+         </form>
+         <form>
+          <label>SHADE C</label><br>
+          <input id="clitre_amount" type="number">
+        </form>
+        <form>
+          <label>SHADE D</label><br>
+          <input id="dlitre_amount" type="number">
+        </form>
+         <div class="child_container">
+           <h2 id="total">KSH0.00</h2>
+           <button onclick="calculate()">CALCULATE</button>
+         </div>
+      </div>
+      <script src="script.js"></script>
         
     </body>
 </html>
