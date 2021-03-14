@@ -30,8 +30,6 @@ function calculate(){
     document.getElementById("total").innerHTML ="KSH  " + results;
     var results2=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*rate);
     document.getElementById("total1").innerHTML ="KSH  " + results2;
-    var results3=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*rate*monthy);
-    document.getElementById("total2").innerHTML ="KSH  " +results3;
     var results4=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*yearly);
     document.getElementById("total3").innerHTML ="KSH  " +results4;
 
