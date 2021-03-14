@@ -24,7 +24,7 @@ function calculate(){
     var price=45;
     var rate=7;
     var monthy=30;
-    var yearly=12;
+    var yearly=365;
 
     var results=((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price));
     document.getElementById("total").innerHTML ="KSH  " + results;
@@ -32,45 +32,45 @@ function calculate(){
     document.getElementById("total1").innerHTML ="KSH  " + results2;
     var results3=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*rate*monthy);
     document.getElementById("total2").innerHTML ="KSH  " +results3;
-    var results4=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*rate*monthy*yearly);
+    var results4=(((shadeA*price)+(shadeB*price)+(shadeC*price)+(shadeD*price))*yearly);
     document.getElementById("total3").innerHTML ="KSH  " +results4;
 
 
     var sum=(results*31);
-    document.getElementById("sum").innerHTML="Your income is KSH  "+ sum;
+    document.getElementById("sum").innerHTML="Your January income is KSH  "+ sum;
 
     var sum1=(results*29);
-    document.getElementById("sum1").innerHTML="Your income is KSH  "+ sum1;
+    document.getElementById("sum1").innerHTML="Your February income is KSH  "+ sum1;
 
     var sum2=(results*31);
-    document.getElementById("sum2").innerHTML="Your income is KSH  "+ sum2;
+    document.getElementById("sum2").innerHTML="Your March income is KSH  "+ sum2;
 
     var sum3=(results*30);
-    document.getElementById("sum3").innerHTML="Your income is KSH  "+ sum3;
+    document.getElementById("sum3").innerHTML="Your April income is KSH  "+ sum3;
 
     var sum4=(results*31);
-    document.getElementById("sum4").innerHTML="Your income is KSH  "+ sum4;
+    document.getElementById("sum4").innerHTML="Your May income is KSH  "+ sum4;
 
     var sum5=(results*30);
-    document.getElementById("sum5").innerHTML="Your income is KSH  "+ sum5;
+    document.getElementById("sum5").innerHTML="Your June income is KSH  "+ sum5;
 
     var sum6=(results*31);
-    document.getElementById("sum6").innerHTML="Your income is KSH  "+ sum6;
+    document.getElementById("sum6").innerHTML="Your July income is KSH  "+ sum6;
 
     var sum7=(results*31);
-    document.getElementById("sum7").innerHTML="Your income is KSH  "+ sum7;
+    document.getElementById("sum7").innerHTML="Your August income is KSH  "+ sum7;
 
     var sum8=(results*30);
-    document.getElementById("sum8").innerHTML="Your income is KSH  "+ sum8;
+    document.getElementById("sum8").innerHTML="Your September income is KSH  "+ sum8;
 
     var sum9=(results*31);
-    document.getElementById("sum9").innerHTML="Your income is KSH  "+ sum9;
+    document.getElementById("sum9").innerHTML="Your October income is KSH  "+ sum9;
 
     var sum10=(results*30);
-    document.getElementById("sum10").innerHTML="Your income is KSH  "+ sum10;
+    document.getElementById("sum10").innerHTML="Your November income is KSH  "+ sum10;
 
     var sum11=(results*31);
-    document.getElementById("sum11").innerHTML="Your income is KSH  "+ sum11;
+    document.getElementById("sum11").innerHTML="Your December income is KSH  "+ sum11;
 
 }   
     

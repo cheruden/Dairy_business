@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Olpertet Dairy Business</title>
+        <title>Dairy Business Management System</title>
         <link rel="stylesheet"type="text/css" href="index.css">
     </head>
     <body>
@@ -26,19 +26,19 @@
           <div class="child_container">
             <form>
           <label> SHADE A</label><br>
-          <input id="alitre_amount" type="number">
+          <input id="alitre_amount" type="number"min="1">
          </form>
          <form>
            <label>SHADE B</label><br>
-           <input id="blitre_amount" type="number">
+           <input id="blitre_amount" type="number"min="1">
          </form>
          <form>
           <label>SHADE C</label><br>
-          <input id="clitre_amount" type="number">
+          <input id="clitre_amount" type="number"min="1">
         </form>
         <form>
           <label>SHADE D</label><br>
-          <input id="dlitre_amount" type="number">
+          <input id="dlitre_amount" type="number"min="1">
         </form>
          <div class="child_container"><br><br>
           <button onclick="calculate()">CALCULATE</button>
@@ -76,31 +76,31 @@
       </div>
       <form>
         <div class="miaka">
-          <h2 id="sum">KSH.00</h2>
-          <textbox>Your January income is</textbox>
+          <p id="sum"></p>
+          <textbox></textbox>
         </div>
-        <h2 id="sum1">KSH.00</h2>
-        <textbox>Your February income is<textbox>
-        <h2 id="sum2">KSH.00</h2>
-        <textbox>Your March income is</textbox>
-        <h2 id="sum3">KSH.00</h2>
-        <textbox>Your April income is</textbox>
-        <h2 id="sum4">KSH.00</h2>
-        <textbox>Your May income is</textbox>
-        <h2 id="sum5">KSH.00</h2>
-        <textbox>Your June income is</textbox>
-        <h2 id="sum6">KSH.00</h2>
-        <textbox>Your July income is</textbox>
-        <h2 id="sum7">KSH.00</h2>
-        <textbox>Your August income is</textbox>
-        <h2 id="sum8">KSH.00</h2>
-        <textbox>Your September income is</textbox>
-        <h2 id="sum9">KSH.00</h2>
-        <textbox>Your October income is</textbox>
-        <h2 id="sum10">KSH.00</h2>
-        <textbox>Your November income is</textbox>
-        <h2 id="sum11">KSH.00</h2>
-        <textbox>Your December income is</textbox>
+        <p id="sum1"></p>
+        <textbox><textbox>
+        <p id="sum2"></p>
+        <textbox></textbox>
+        <p id="sum3"></p>
+        <textbox></textbox>
+        <p id="sum4"></p>
+        <textbox></textbox>
+        <p id="sum5"></p>
+        <textbox></textbox>
+        <p id="sum6"></p>
+        <textbox></textbox>
+        <p id="sum7"></p>
+        <textbox></textbox>
+        <p id="sum8"></p>
+        <textbox></textbox>
+        <p id="sum9"></p>
+        <textbox></textbox>
+        <p id="sum10"></p>
+        <textbox></textbox>
+        <p id="sum11"></p>
+        <textbox></textbox>
       </div>
       </form>
       <script src="script.js"></script>
