@@ -48,10 +48,7 @@ button{
     font-family: monospace;
     font-size: 20px;
 }
-.daily_container,.yearly_container,.grandy_container{
-    flex: auto;
-    flex-direction: column;
-    text-align: right;
-    font-family: monospace;
+.carrots{
+    display: flex;
 
 }
