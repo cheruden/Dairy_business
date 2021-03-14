@@ -50,5 +50,6 @@ button{
 }
 .carrots{
     display: flex;
+    justify-content: space-between;
 
 }
