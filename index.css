@@ -12,8 +12,9 @@ h1{
     border-top-left-radius: 10px;
 }
 form{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 60px;
+
 }
 input{
     width: 150px;
@@ -23,12 +24,11 @@ input{
     border-radius: 5px;
 }
 select{
-    width: 18%;
+    width: 20%;
     border-radius: 5px;
-    padding: 8px;
 }
 .child_container{
-    font-family: cursive;
+    text-align: inherit
 
 }
 button{
@@ -43,3 +43,7 @@ button{
     font-size: 20px;
 
 }
+/*.carrots{
+    float: left;
+    width: 40%;
+}*/
