@@ -25,20 +25,26 @@
           </form>
           <div class="child_container">
             <form>
-          <label> SHADE A</label><br>
-          <input id="alitre_amount" type="number"min="1">
+          <!--<label> SHADE A</label><br>
+          <input id="alitre_amount" type="number"min="1">-->
+          <label for="shadea">SHADE A:</label>
+          <input type="number"min="1" name="shadea" id="alitre_amount" 
+          required>
          </form>
          <form>
-           <label>SHADE B</label><br>
-           <input id="blitre_amount" type="number"min="1">
+          <label for="shadeb">SHADE B:</label>
+          <input type="number"min="1" name="shadeb" id="blitre_amount" 
+          required>
          </form>
          <form>
-          <label>SHADE C</label><br>
-          <input id="clitre_amount" type="number"min="1">
+          <label for="shadec">SHADE C:</label>
+          <input type="number"min="1" name="shadec" id="clitre_amount" 
+          required>
         </form>
         <form>
-          <label>SHADE D</label><br>
-          <input id="dlitre_amount" type="number"min="1">
+          <label for="shaded">SHADE D:</label>
+          <input type="number"min="1" name="shaded" id="dlitre_amount" 
+          required>
         </form>
          <div class="child_container"><br><br>
           <button onclick="calculate()">CALCULATE</button>
